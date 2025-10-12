@@ -30,14 +30,14 @@ The workflow automates fetching historical stock data from **Yahoo Finance** (MS
 ---
 
 ## Tech Stack
-| Category | Tools / Libraries |
-|----------|------------------|
-| Frontend GUI | CustomTkinter |
-| Backend Database | SQLite3 |
-| Data Fetching | yfinance |
-| Data Handling | Pandas |
-| Visualization | Tableau |
-| Environment | Python 3.11+ |
+| Category         | Tools / Libraries |
+|:-----------------|:------------------|
+| Frontend GUI     | CustomTkinter     |
+| Backend Database | SQLite3           |
+| Data Fetching    | yfinance          |
+| Data Handling    | Pandas            |
+| Visualization    | Tableau           |
+| Environment      | Python 3.11+      |
 
 ---
 
@@ -86,7 +86,7 @@ The workflow automates fetching historical stock data from **Yahoo Finance** (MS
 
 ## 🔁 Quick Reference Table
 | Step | Purpose                 | File / Tool                |
-|:----:|:---------------------------|:---------------------------|
+|:----:|:------------------------|:---------------------------|
 | 1    | Launch modern GUI       | `main_guiM.py`             |
 | 2    | Manage DB & CRUD ops    | `db_utils.py`, `stocks.db` |
 | 3    | Import Yahoo data       | `import_yahoo.py`          |
