@@ -69,23 +69,36 @@ The workflow automates fetching historical stock data from **Yahoo Finance** (MS
       ```
     - Import the resulting `stock_data_export.csv` file into **Tableau** to create interactive dashboards.
 
----
+
 
 ## 📂 Project Structure
+```
 📦 STOCK-DATA-PIPELINE/
-├── main_guiM.py         # Modern GUI (CustomTkinter)
-├── main_guiC.py         # Classic GUI (Tkinter)
-├── db_utils.py          # Database utilities (table creation, etc.)
-├── insert_window.py     # GUI window for INSERT
-├── select_window.py     # GUI window for SELECT
-├── update_window.py     # GUI window for UPDATE
-├── delete_window.py     # GUI window for DELETE
-├── import_yahoo.py      # Automated Yahoo Finance data importer
-├── export_csv.py        # CSV export script
-├── stocks.db            # SQLite database file
-└── README.md            # Project documentation
+ ┣ 📜 main_guiM.py       ─ Modern GUI (CustomTkinter)
+ ┣ 📜 main_guiC.py       ─ Classic GUI
+ ┣ 📜 db_utils.py        ─ Database utilities
+ ┣ 📜 import_yahoo.py    ─ Automated Yahoo Finance importer
+ ┣ 📜 export_csv.py      ─ CSV export script
+ ┣ 📜 stocks.db          ─ SQLite database
+ ┗ 📜 README.md          ─ Project documentation
+```
+---
 
+## 🔁 Quick Reference Table
+| Step | Purpose                 | File / Tool                |
+|:----:|:---------------------------|:---------------------------|
+| 1    | Launch modern GUI       | `main_guiM.py`             |
+| 2    | Manage DB & CRUD ops    | `db_utils.py`, `stocks.db` |
+| 3    | Import Yahoo data       | `import_yahoo.py`          |
+| 4    | Export to CSV           | `export_csv.py`            |
+| 5    | Build Tableau dashboard | Tableau Desktop            |
 
+<!--
+Alignment markers guide:
+:----: → center align
+:----  → left align
+----:  → right align
+-->
 ---
 
 ## 📊 Data-to-Visualization Flow
@@ -104,7 +117,7 @@ Yahoo Finance API → SQLite DB → CustomTkinter App (CRUD) → CSV Export → 
 
 ## 👤 Author
 **Apurva Upadhyay**
-*Data Analytics | Data Science | Python | AI Engineering*
+*Data Analytics | Data Science | AI Engineering*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/upadhyayapurva) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:apurvaupadhyayai@gmail.com)
 
