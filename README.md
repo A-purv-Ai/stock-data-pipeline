@@ -9,7 +9,9 @@
 ---
 
 ## Overview
-This is an **end-to-end stock data management and visualization project**. It integrates:
+A hands-on project covering **feature engineering**, **data analysis**, and **data engineering**. Fetch, manage, and visualize real stock data, then build insights and dashboards. Includes a custom feature (**Normalized Close**) to compare multiple stocks on the same scale.
+
+It also integrates:
 - **Desktop App (CustomTkinter)** for CRUD operations
 - **SQLite** database for local storage
 - **Pandas & CSV export** for data manipulation
@@ -133,7 +135,7 @@ Daily closing price evolution for MSFT, IBM, MS, and AAPL, revealing volatility 
 
 🖼️ **Stocks' Relative Performance Over the Last Decade**  
 [![Stocks' Relative Performance Over the Last Decade](images/Stocks_Relative_Performance.png)](images/Stocks_Relative_Performance.png)  
-Line chart showing how each stock's price changed relative to its starting value (2014 = 1.0), highlighting company growth.
+Line chart showing how each stock's price changed relative to its starting value (2014 = 1.0) using a custom engineered feature (**Normalized Close**) for same-scale comparison across tickers.
 
 🖼️ **Managerial Overview Dashboard**  
 [![Managerial Overview Dashboard](images/Managerial_Overview_Dashboard.png)](images/Managerial_Overview_Dashboard.png)  
@@ -190,4 +192,3 @@ Yahoo Finance API → SQLite DB → CustomTkinter App (CRUD) → CSV Export → 
 ## 🏷️ Keywords
 
 Financial Analytics · Python · Data Pipeline · CustomTkinter · SQLite · Pandas · Yahoo Finance · Tableau · Data Visualization · Stock Analysis · Desktop GUI · CRUD Application · End-to-End Solution · Dashboard 
-
